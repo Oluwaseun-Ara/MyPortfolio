@@ -1,0 +1,49 @@
+{"homepage": "https://oluwaseun-ara.github.io//MyPortfolio",
+  "name": "MyPortfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy":"npm run build",
+    
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@formspree/react": "^2.4.1",
+    "@material-tailwind/react": "^2.0.0",
+    "@react-three/drei": "^9.66.4",
+    "@react-three/fiber": "^8.13.0",
+    "@tippyjs/react": "^4.2.6",
+    "framer-motion": "^10.12.8",
+    "maath": "^0.5.3",
+    "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^18.2.0",
+    "react-hooks": "^1.0.1",
+    "react-icons": "^4.8.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-router-dom": "^6.11.1",
+    "react-spinners": "^0.13.8",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.152.2",
+    "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.23",
+    "sass": "^1.62.1",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.2"
+  }
+}

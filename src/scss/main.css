@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(/images/Untitled\ design.png), #223;
+  background-blend-mode: color-burn;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+nav {
+  background: #223;
+  width: -moz-max-content;
+  width: max-content;
+  display: block;
+  padding: 0.3rem 0.5rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border: 0.1px solid #376e6f;
+  box-shadow: 4px 3px 10px 4px #376e6f;
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: #da7b93;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background: #2e151b;
+  color: whitesmoke;
+}
+
+nav a.active {
+  background: #da7b93;
+  color: #fff;
+}
+
+.hello {
+  color: #fff !important;
+  background-color: #2e151b !important;
+  border-radius: 50px !important;
+  font-size: 12px !important;
+}
+
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  padding: 10px;
+  --border-size: 3px;
+  --border-angle: 0turn;
+  width: 25rem;
+  height: 25rem;
+  background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - var(--border-size) * 2) calc(100% - var(--border-size) * 2), cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.box:hover {
+  animation-play-state: paused;
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+.btnbox {
+  padding: 10px;
+  --border-size: 3px;
+  --border-angle: 0turn;
+  width: 8rem;
+  height: 3rem;
+  background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - var(--border-size) * 2) calc(100% - var(--border-size) * 2), cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.btnbox:hover {
+  animation-play-state: paused;
+}/*# sourceMappingURL=main.css.map */
