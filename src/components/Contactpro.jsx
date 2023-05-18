@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Earth from "./Earth";
-import "../scss/contact.scss";
+import "../scss/contact.css";
 
 function Contactpro() {
 

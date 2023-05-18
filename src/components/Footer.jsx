@@ -1,4 +1,4 @@
-import "../scss/footer.scss";
+import "../scss/footer.css";
 import { motion } from "framer-motion";
 
 const Footer = () => {

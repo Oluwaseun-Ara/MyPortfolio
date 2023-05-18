@@ -2,7 +2,7 @@ import SocialMediaIcons from "./SocialMediaIcons";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import HeaderSocials from "./HeaderSocials";
-import "../scss/header.scss";
+import "../scss/header.css";
 const Header = () => {
   return (
     <section
