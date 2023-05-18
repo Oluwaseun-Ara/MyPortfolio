@@ -1,4 +1,4 @@
-import "../scss/main.css";
+import "../scss/nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
