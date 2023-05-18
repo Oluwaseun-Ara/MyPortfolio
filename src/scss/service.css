@@ -20,7 +20,7 @@
   --background: #efeded;
   --background-alt: #ffffff;
   --text: #ffffff;
-  animation: service 5s forwards;
+  animation: service 1s forwards;
 }
 
 @keyframes service {
@@ -244,5 +244,31 @@
     grid-column-end: span 6;
     margin-top: var(--gutter);
     transform: translatex(calc(var(--gutter) * -1));
+  }
+}
+@media screen and (max-width: 500px) {
+  .service {
+    animation: service 1s forwards;
+  }
+  @keyframes service {
+    0% {
+      font-size: 0%;
+    }
+    100% {
+      font-size: 110%;
+    }
+  }
+}
+@media screen and (max-width: 380px) {
+  .service {
+    animation: service 1s forwards;
+  }
+  @keyframes service {
+    0% {
+      font-size: 0%;
+    }
+    100% {
+      font-size: 100%;
+    }
   }
 }/*# sourceMappingURL=service.css.map */

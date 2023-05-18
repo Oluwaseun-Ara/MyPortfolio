@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400");
+.footer ul {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1px;
+}
+
+.footer ul li {
+  list-style: none;
+  margin: 0 1px;
+  text-align: center;
+}
+
+.footer ul li a .fa {
+  font-size: 20px;
+  color: #000000;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+.footer ul li a span {
+  position: absolute;
+  top: 24px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 60px;
+  background: #fff;
+  text-align: left;
+  padding-left: 20px;
+  transform: rotate(-40deg) skew(20deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer ul li a:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.footer ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.footer ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.footer ul li:hover .fa {
+  color: #fff;
+}
+
+.footer ul li:hover span {
+  color: #fff;
+}
+
+.footer ul li:hover:nth-child(1) a {
+  background: #3b5998;
+}
+
+.footer ul li:hover:nth-child(1) a:before {
+  background: #365492;
+}
+
+.footer ul li:hover:nth-child(1) a:after {
+  background: #4a69ad;
+}
+
+.footer ul li:hover:nth-child(2) a {
+  background: #00aced;
+}
+
+.footer ul li:hover:nth-child(2) a:before {
+  background: #fbbc05;
+}
+
+.footer ul li:hover:nth-child(2) a:after {
+  background: #34a853;
+}
+
+.footer ul li:hover:nth-child(3) a {
+  background: #0077b5;
+}
+
+.footer ul li:hover:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.footer ul li:hover:nth-child(3) a:after {
+  background: #0077b5;
+}
+
+.footer ul li:hover:nth-child(4) a {
+  background: #128c7e;
+}
+
+.footer ul li:hover:nth-child(4) a:before {
+  background: #128c7e;
+}
+
+.footer ul li:hover:nth-child(4) a:after {
+  background: #128c7e;
+}
+
+@media screen and (max-width: 767px) {
+  .footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .footer ul li {
+    margin: 0 auto;
+    padding: 13px;
+  }
+}/*# sourceMappingURL=footer.css.map */
