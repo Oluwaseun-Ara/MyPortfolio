@@ -1,4 +1,4 @@
-import "../scss/service.css";
+import "../css/service.css";
 import { motion } from "framer-motion";
 
 

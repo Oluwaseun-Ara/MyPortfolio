@@ -1,4 +1,4 @@
-import "../scss/about.css";
+import "../css/about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { GiSkills } from "react-icons/gi";

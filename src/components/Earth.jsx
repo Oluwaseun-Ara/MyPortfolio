@@ -1,4 +1,4 @@
-import "../scss/Earth.css"
+import "../css/Earth.css"
 
 const Earth = () => {
   return <div className="contact_box">

@@ -1,0 +1,243 @@
+.about_container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	place-items: center;
+	place-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.about_me {
+	width: 26rem;
+	height: 26rem;
+	aspect-ratio: 1/1;
+	border-radius: 2rem;
+	background: linear-gradient(45deg, transparent, #fb8b24, transparent);
+	display: grid;
+	place-items: center;
+	justify-content: center;
+}
+
+.about_me img {
+	border-radius: 2rem;
+	overflow: hidden;
+	width: 28rem;
+	height: 28rem;
+	transform: rotate(10deg);
+	transition: all 400ms ease;
+}
+
+.about_me img:hover {
+	transform: rotate(0deg);
+}
+
+.about_cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.2rem;
+	padding: 0.2rem;
+	margin: 0 auto;
+}
+
+.about_card {
+	background: #1c3334;
+	border: 1px solid transparent;
+	border-radius: 1rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1.8rem;
+	transition: all 400ms ease;
+}
+
+.about_card:hover {
+	background: transparent;
+	border-color: #2e151b;
+	cursor: default;
+}
+
+.about_icon {
+	color: #fb8b24;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.about_card h5 {
+	font-size: 0.95rem;
+}
+
+.about_card small {
+	font-size: 0.7rem;
+	color: #fff;
+}
+
+.about_content p {
+	margin: 2rem 0 2.6rem;
+	color: #fff;
+}
+
+.card_p {
+	font-size: 14px;
+	word-spacing: 5px;
+	line-height: 1.5em;
+	text-align: start;
+	text-indent: 2rem;
+	padding: 20px;
+}
+
+.seccion {
+	text-transform: uppercase;
+	transform: rotate(270deg);
+	transform-origin: 0 0;
+	top: 60%;
+}
+
+.about_section {
+	display: grid;
+	grid-template-columns: 45% 50%;
+	gap: 5px;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.skill_icon {
+	font-size: 1.5rem;
+	color: #fb8b24;
+	transition: all 400ms ease;
+	margin: 0 4px;
+}
+
+.skill_icon:hover {
+	transform: rotate(0.2turn);
+	color: red;
+}
+
+@media screen and (max-width: 1024px) {
+	.about_container {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+	.about_me {
+		width: 30%;
+		height: 24rem;
+		margin: 2rem auto 4rem;
+	}
+	.about_me img {
+		border-radius: 2rem;
+		overflow: hidden;
+		width: 22rem;
+		height: 24rem;
+		transform: rotate(10deg);
+		transition: all 400ms ease;
+	}
+	.about_content p {
+		margin: 1rem 0 1.5rem;
+	}
+}
+@media screen and (max-width: 850px) {
+	.about_container {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+	.about_me {
+		width: 47%;
+		height: 25rem;
+		margin: 2rem auto 4rem;
+	}
+	.about_me img {
+		border-radius: 2rem;
+		overflow: hidden;
+		width: 28rem;
+		height: 25rem;
+		transform: rotate(10deg);
+		transition: all 400ms ease;
+	}
+	.about_content p {
+		margin: 1rem 0 1.5rem;
+	}
+}
+@media screen and (max-width: 700px) {
+	.about_section {
+		display: grid;
+		grid-template-columns: 50% 55%;
+		gap: 0px;
+		justify-content: center;
+		margin: 0 auto;
+		padding: 1rem;
+	}
+	.about_me {
+		width: 55%;
+		height: 22rem;
+		margin: 0 auto 3rem;
+	}
+	.about_me img {
+		border-radius: 2rem;
+		overflow: hidden;
+		width: 22rem;
+		height: 22rem;
+		transform: rotate(10deg);
+		transition: all 400ms ease;
+	}
+}
+@media screen and (max-width: 600px) {
+	.about_me {
+		width: 55%;
+		height: 22rem;
+		margin: 0 auto 3rem;
+	}
+	.about_me img {
+		border-radius: 2rem;
+		overflow: hidden;
+		width: 22rem;
+		height: 22rem;
+		transform: rotate(10deg);
+		transition: all 400ms ease;
+	}
+	.about_cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+	.about_content {
+		text-align: center;
+	}
+	.about_content p {
+		margin: 1.5rem;
+	}
+	.about_section {
+		display: grid;
+		grid-template-columns: 100%;
+		gap: 0;
+		justify-content: center;
+		margin: 0 auto;
+		padding: 1rem;
+	}
+}
+@media screen and (max-width: 450px) {
+	.about_me {
+		width: 70%;
+		height: 18rem;
+	}
+	.about_me img {
+		width: 20rem;
+		height: 18rem;
+	}
+}
+@media screen and (max-width: 350px) {
+	.about_me {
+		width: 70%;
+		height: 18rem;
+		margin: 0 auto 3rem;
+	}
+	.about_me img {
+		width: 20rem;
+		height: 18rem;
+	}
+	.card_p {
+		font-size: 16px;
+		text-align: left;
+	}
+} /*# sourceMappingURL=about.css.map */

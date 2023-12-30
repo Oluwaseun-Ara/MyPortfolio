@@ -1,4 +1,4 @@
-import "../scss/project.css";
+import "../css/project.css";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { motion } from "framer-motion";
 const Projects = () => {
